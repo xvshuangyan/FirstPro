@@ -1,2 +1,2 @@
-This is My first page,for test.
-Creating a new branch is quick.
+This is My first page,for test
+Creating a new branch is quick & simple.
