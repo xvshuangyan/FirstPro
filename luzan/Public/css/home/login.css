@@ -1,0 +1,45 @@
+body{
+    background: url("../../img/home/bbg.png");
+}
+form{
+    width:300px;
+    margin-left: 740px;
+    margin-top: 50px;
+    padding-left: 60px;
+}
+.input-group{
+    width:100%;
+    margin:5px 0px;
+}
+.input-group .login{
+    width:96%;
+    display: inline-block;
+    margin:2%;
+}
+.login-group{
+    padding-top: 40px;
+    text-align: center;
+}
+.validate{
+    text-align: right;
+}
+.validate img{
+    width:90px;
+    height:30px;
+    margin-right: 15px;
+}
+.login-group a,.validate a{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.title{
+    text-align: center;
+    padding: 10px 0px;
+}
+.title h2{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.back{
+    margin-right: 20px;
+}

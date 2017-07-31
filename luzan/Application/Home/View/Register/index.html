@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>新用户注册</title>
+    <link rel="stylesheet" href="Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Public/css/home/login.css">
+    <link rel="stylesheet" href="Public/css/skin/layer.css">
+</head>
+<body>
+<div class="wrap">
+    <form method="post">
+        <div class="title"><h2>请填写登录信息</h2></div>
+        <div class="input-group">
+            <span class="input-group-addon">账&nbsp;&nbsp;&nbsp;号：</span>
+            <input type="text" name="username" class="form-control" placeholder="请输入账号">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon">密&nbsp;&nbsp;&nbsp;码：</span>
+            <input type="password" name="password" class="form-control" placeholder="请输入密码">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon">验证码：</span>
+            <input type="text" name="code" class="form-control" placeholder="请输入验证码">
+        </div>
+        <div class="input-group validate">
+            <img id="img1" src="{:U('Home/Login/verify_c',array())}" alt="">
+            <a href="javascript:">再换一张</a>
+        </div>
+        <div class="input-group login-group">
+            <button class="btn btn-info login" type="button" onclick="login.check();">登录</button>
+            <a href="javascript:" class="back">返回</a>
+            <a href="index.php?c=Register">新用户注册</a>
+        </div>
+    </form>
+</div>
+<script src="Public/js/jquery.1.10.2.js"></script>
+<script src="Public/js/layer.js"></script>
+<script src="Public/js/dialog.js"></script>
+<script src="Public/js/home/login.js"></script>
+
+<script>
+    $(".validate").find("a").click(function () {
+        var validateSrc=$(this).parent().find("img").attr("src");
+        if(validateSrc.indexOf("?")>0){
+            $(this).parent().find("img").attr("src", validateSrc+'&random='+Math.random());
+        }else{
+            $(this).parent().find("img").attr("src", validateSrc.replace(/\?.*$/,'')+'?'+Math.random());
+        }
+    });
+    $(".back").click(function () {
+        history.back();
+    })
+</script>
+</body>
+</html>

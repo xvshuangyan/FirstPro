@@ -1,0 +1,104 @@
+<include file="Application/Admin/View/Index/header.html"/>
+<include file="Application/Admin/View/Index/leftSide.html"/>
+<div class="col-lg-10 main">
+    <ol class="breadcrumb">
+        <li><span class="glyphicon glyphicon-tag"></span><a href="admin.php?c=Content">文章管理</a></li>
+        <li class="active">文章列表</li>
+    </ol>
+
+<form class="form-horizontal" role="form" method="post"  action="admin.php?c=Content" id="lookMessage">
+    <div class="row messageSearch">
+        <div class="col-lg-2">
+            <a href="admin.php?c=Content&a=add"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>添加文章</button></a>
+        </div>
+        <div class="col-lg-4">
+            <div class="input-group">
+                <span class="input-group-addon">栏目</span>
+                <select class="form-control" name="catid">
+                    <option selected value="">全部分类</option>
+                    <foreach name="homeMenu" item="vo">
+                        <option value="{$vo.menu_id}" <if condition="$vo.menu_id eq $pagCondation['catid']">selected</if>>{$vo.name}</option>
+                    </foreach>
+                </select>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="input-group">
+                <input type="text" class="form-control" name="title" placeholder="文章标题" value="{$pagCondation['title']}">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+        </div>
+    </div>
+</form>
+    <table class="table table-hover table-bordered" id="newsList">
+        <tr>
+            <th class="chooseAll"><input type="checkbox"></th>
+            <th>排序</th>
+            <th>id</th>
+            <th>标题</th>
+            <th>栏目</th>
+            <th>来源</th>
+            <th>封面图</th>
+            <th>更新时间</th>
+            <th>点击量</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        <foreach name="perPageList" item="vo" >
+            <tr index="{$vo.news_id}">
+                <td class="chooseSingle"><input type="checkbox"></td>
+                <td class="contentOrder"><input type="text" value="{$vo.listorder}"></td>
+                <td id="news_id">{$vo.news_id}</td>
+                <td>{$vo.title}</td>
+                <td>{$vo.catid|getContentCat=$homeMenu,###}</td>
+                <td>{$vo.copyfrom|getCopyFrom=$article_from,###}</td>
+                <td>{$vo.thumb|isThumb}</td>
+                <td>{$vo.update_time|date="Y-m-d H:i:s",###}</td>
+                <td>{$vo.count}</td>
+                <td>{$vo.status|getStatus}</td>
+                <td>
+                    <a href="admin.php?c=Content&a=edit&id={$vo.news_id}" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span></a>
+                    <button  class="btn btn-danger del"><span class="glyphicon glyphicon-trash"></span></button>
+                    <a href="index.php?c=Detail&id={$vo.news_id}" class="btn btn-info"><span class="glyphicon glyphicon-eye-open"></span></a>
+                </td>
+            </tr>
+        </foreach>
+    </table>
+    <div class="updateAndPush">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="input-group">
+                    <select class="form-control" name="position_id">
+                        <option selected disabled>请选择推送位</option>
+                        <foreach name="positionList" item="vo">
+                            <option value="{$vo.id}">{$vo.name}</option>
+                        </foreach>
+                    </select>
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button" onclick="btnClick.pushData();" ><span class="glyphicon glyphicon-arrow-up">推送</span></button>
+                    </span>
+                </div>
+            </div>
+            <div class="col-lg-1">
+                <button type="button" class="btn btn-primary order"><span class="glyphicon glyphicon-refresh"></span>更新排序</button>
+            </div>
+        </div>
+    </div>
+    <nav class="page-group"><ul class="pagination">{$pagUi}</ul></nav>
+</div>
+</div>
+</div>
+<script src="Public/js/jquery.1.10.2.js"></script>
+<script src="Public/js/bootstrap.js"></script>
+<script src="Public/js/layer.js"></script>
+<script src="Public/js/dialog.js"></script>
+<script src="Public/js/util.js"></script>
+<script src="Public/js/admin/btnClick.js"></script>
+<script>
+    delBtn("admin.php?c=Content&a=del&id=","admin.php?c=Content");//删除文章列表
+    orderBtn("admin.php?c=Content&a=updateOrder","admin.php?c=Content");//更新文章排序
+</script>
+</body>
+</html>

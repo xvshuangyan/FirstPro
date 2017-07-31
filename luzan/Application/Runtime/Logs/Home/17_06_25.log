@@ -1,0 +1,33 @@
+[ 2017-06-25T16:05:07+08:00 ] ::1 /phppro/luzan/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001993s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\WWW\phppro\luzan\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\phppro\luzan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Unknown database 'bigcms'
+
+[ 2017-06-25T16:05:38+08:00 ] ::1 /phppro/luzan/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\WWW\phppro\luzan\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\phppro\luzan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Unknown database 'bigcms'
+
+[ 2017-06-25T16:31:25+08:00 ] ::1 /phppro/luzan/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001432s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\WWW\phppro\luzan\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\phppro\luzan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: Unknown database 'bigcms'
+

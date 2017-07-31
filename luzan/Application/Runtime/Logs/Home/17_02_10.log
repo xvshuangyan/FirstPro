@@ -1,0 +1,1750 @@
+[ 2017-02-10T20:46:25+08:00 ] ::1 /mypro/cms1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003103s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.085217s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.027306s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.001457s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.011849s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.001204s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.001031s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000625s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000970s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.001058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000614s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.479652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.480220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006071s ]
+
+[ 2017-02-10T20:46:35+08:00 ] ::1 /mypro/cms1/index.php?m=Home&c=Index&a=index&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001467s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005170s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005710s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000399s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.004994s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000454s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000305s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000195s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 5,5   [ RunTime:0.000605s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000588s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000261s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2017-02-10T20:46:39+08:00 ] ::1 /mypro/cms1/index.php?m=Home&c=Index&a=index&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005874s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005140s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000476s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000951s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.083761s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000604s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000366s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 10,5   [ RunTime:0.000680s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000884s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001688s ]
+
+[ 2017-02-10T20:46:41+08:00 ] ::1 /mypro/cms1/index.php?m=Home&c=Index&a=index&p=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.048793s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005601s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000390s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005055s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000454s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000309s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000216s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 15,5   [ RunTime:0.000549s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024883s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001797s ]
+
+[ 2017-02-10T20:46:48+08:00 ] ::1 /mypro/cms1/index.php?m=Home&c=Index&a=index&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.006457s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005882s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000446s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005841s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000498s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000319s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 10,5   [ RunTime:0.000525s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000647s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001705s ]
+
+[ 2017-02-10T20:47:16+08:00 ] ::1 /mypro/cms1/index.php?c=Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010848s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001103s ]
+
+[ 2017-02-10T20:47:16+08:00 ] ::1 /mypro/cms1/index.php?m=Home&c=Login&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001186s ]
+
+[ 2017-02-10T20:47:26+08:00 ] ::1 /mypro/cms1/index.php?c=Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2017-02-10T20:47:27+08:00 ] ::1 /mypro/cms1/index.php?m=Home&c=Login&a=verify_c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-02-10T20:47:32+08:00 ] ::1 /mypro/cms1/index.php?m=Home&c=Login&a=verify_c&random=0.44210630831053366
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002037s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002433s ]
+
+[ 2017-02-10T20:48:02+08:00 ] ::1 /mypro/cms1/index.php?c=Login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_user` [ RunTime:0.189121s ]
+SQL: SELECT * FROM `cms_user` WHERE `username` = 'admin' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.017505s ]
+NOTIC: [8] Undefined index: admin_id E:\wampserv\wamp\www\mypro\cms1\Application\Home\Model\UserModel.class.php 第 28 行.
+SQL: UPDATE `cms_user` SET `user_id`=1,`username`='admin',`password`='e10adc3949ba59abbe56e057f20f883e',`lastloginip`='::1',`lastlogintime`=1486730882,`email`='732005030@qq.com',`realname`='毕丛明',`status`=1 WHERE ( admin_id= ) [ RunTime:0.049970s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : UPDATE `cms_user` SET `user_id`=1,`username`='admin',`password`='e10adc3949ba59abbe56e057f20f883e',`lastloginip`='::1',`lastlogintime`=1486730882,`email`='732005030@qq.com',`realname`='毕丛明',`status`=1 WHERE ( admin_id= )
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001509s ]
+
+[ 2017-02-10T21:15:24+08:00 ] ::1 /mypro/cms1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.125859s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.044416s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000641s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005491s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000591s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000346s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000253s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000380s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001654s ]
+
+[ 2017-02-10T21:15:31+08:00 ] ::1 /mypro/cms1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005899s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.006170s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000419s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005731s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000502s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000296s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000435s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000670s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2017-02-10T21:15:34+08:00 ] ::1 /mypro/cms1/index.php?c=Detail&id=34
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.011243s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.007188s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.008057s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000511s ]
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\DetailController.class.php on line 18 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\DetailController.class.php on line 18 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` = 34 ORDER BY update_time desc,listorder desc  [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.038360s ]
+SQL: SELECT * FROM `cms_news_content` WHERE `news_id` = 34 LIMIT 1   [ RunTime:0.007082s ]
+SQL: UPDATE `cms_news` SET `count`=49 WHERE `news_id` = 34 [ RunTime:0.007520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2017-02-10T21:15:38+08:00 ] ::1 /mypro/cms1/index.php?c=Cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.013281s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.011996s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.013238s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000823s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.000764s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.001678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002299s ]
+
+[ 2017-02-10T21:15:41+08:00 ] ::1 /mypro/cms1/index.php?m=Home&c=Cat&a=index&id=3&p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005368s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005556s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.146034s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000454s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.000330s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 ORDER BY update_time desc,listorder desc LIMIT 5,5   [ RunTime:0.000967s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2017-02-10T21:15:43+08:00 ] ::1 /mypro/cms1/index.php?m=Home&c=Cat&a=index&id=3&p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005113s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005578s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005269s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000363s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 ORDER BY update_time desc,listorder desc LIMIT 10,5   [ RunTime:0.000926s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-02-10T21:15:45+08:00 ] ::1 /mypro/cms1/index.php?c=Cat&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005701s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005812s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.006024s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000477s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 8 LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 8 ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2017-02-10T21:15:46+08:00 ] ::1 /mypro/cms1/index.php?c=Cat&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005543s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005357s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005684s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000349s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 12 LIMIT 1   [ RunTime:0.000229s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 12 ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000344s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-02-10T21:15:49+08:00 ] ::1 /mypro/cms1/index.php?c=Cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005734s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005622s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005520s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000453s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2017-02-10T21:15:50+08:00 ] ::1 /mypro/cms1/index.php?c=Cat&id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005128s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005071s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.283705s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000413s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 8 LIMIT 1   [ RunTime:0.000285s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 8 ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001496s ]
+
+[ 2017-02-10T21:15:51+08:00 ] ::1 /mypro/cms1/index.php?c=Cat&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005298s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.006524s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005120s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000380s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 12 LIMIT 1   [ RunTime:0.000240s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 12 ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2017-02-10T21:28:09+08:00 ] ::1 /mypro/cms1/index.php?c=Cat&id=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.007473s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005369s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.006114s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000522s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 12 LIMIT 1   [ RunTime:0.000339s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 12 ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001040s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001333s ]
+
+[ 2017-02-10T21:28:43+08:00 ] ::1 /mypro/cms1/index.php?c=Cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.006333s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.010874s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.006155s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000388s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2017-02-10T21:29:05+08:00 ] ::1 /mypro/cms1/index.php?c=Cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005245s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.006029s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.004906s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000363s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.000409s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001657s ]
+
+[ 2017-02-10T21:30:49+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.059314s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.053334s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.001065s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.006067s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000555s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000362s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000474s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000922s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001753s ]
+
+[ 2017-02-10T21:30:55+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001708s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.010405s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.010887s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000630s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.011821s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000832s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000925s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000763s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.001271s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000880s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000426s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000974s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001200s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2017-02-10T21:36:27+08:00 ] ::1 /mypro/cms1/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.007403s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005281s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000361s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000230s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.007061s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000442s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000244s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000146s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000358s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2017-02-10T21:36:38+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.006375s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.006490s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000452s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.007825s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000639s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000449s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000505s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000869s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2017-02-10T21:44:45+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005443s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.004998s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000497s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.006202s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000603s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000343s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000151s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000294s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+
+[ 2017-02-10T21:45:24+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002604s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.011388s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.013172s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000702s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.013334s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000863s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000715s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.001416s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.001715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000687s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002606s ]
+
+[ 2017-02-10T21:50:04+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001350s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.006888s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.008360s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000529s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.009816s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000932s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000732s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000642s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.001134s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.002015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000534s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2017-02-10T21:50:39+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001633s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.008346s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000454s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.007225s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000862s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.006454s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000745s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000374s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000215s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000397s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000962s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002105s ]
+
+[ 2017-02-10T21:50:48+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.139676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002673s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.008826s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.038424s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000767s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.211656s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000784s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000762s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000610s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.195143s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.195767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005558s ]
+
+[ 2017-02-10T21:51:44+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.006406s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005963s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000410s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005491s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000415s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000255s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000153s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000297s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001960s ]
+
+[ 2017-02-10T21:54:29+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001977s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.006917s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.007418s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000630s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.008324s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000507s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000368s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000154s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000309s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.001073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062615s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002038s ]
+
+[ 2017-02-10T21:55:14+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002183s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005797s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005131s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000431s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005268s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000491s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000680s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000676s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.001060s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002123s ]
+
+[ 2017-02-10T21:56:34+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001737s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.008268s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.007596s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000962s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.008764s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000792s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000507s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000373s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000624s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000944s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001726s ]
+
+[ 2017-02-10T21:58:41+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.150371s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005402s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000397s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.004976s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000467s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000316s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000341s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001018s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2017-02-10T22:04:36+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005221s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005026s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000359s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005146s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000473s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000302s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000209s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000386s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000569s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023290s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-02-10T22:06:31+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.009953s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.001802s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.011337s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.001159s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.010178s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000824s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000676s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000450s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000853s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.001373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004093s ]
+
+[ 2017-02-10T22:08:48+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001970s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.008811s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.007754s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000626s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.008088s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000844s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000636s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000422s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.001041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001722s ]
+
+[ 2017-02-10T22:09:43+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001401s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.007658s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.010352s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000798s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.010374s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000679s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000525s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000955s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.002678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000451s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003613s ]
+
+[ 2017-02-10T22:11:13+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.007901s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.009285s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000755s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.009037s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000772s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000604s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000490s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000904s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.001066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000682s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002144s ]
+
+[ 2017-02-10T22:11:32+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003669s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.008102s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.009570s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000401s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.009751s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000827s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000993s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000454s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.002184s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.001516s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005969s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002618s ]
+
+[ 2017-02-10T22:11:45+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000173s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002850s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.006562s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.001014s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.009671s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000731s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.009464s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.001172s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000640s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000715s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000768s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003115s ]
+
+[ 2017-02-10T22:12:00+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005943s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.006096s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000357s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005721s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000622s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000404s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000196s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000328s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037900s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002974s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003363s ]
+
+[ 2017-02-10T22:14:03+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001525s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.009392s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.009771s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.002723s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.013082s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000785s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000727s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000502s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000863s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.001132s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004789s ]
+
+[ 2017-02-10T22:17:37+08:00 ] ::1 /mypro/cms1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.007016s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.007865s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000520s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005416s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000562s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000367s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 40 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000186s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000346s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Home\Controller\IndexController.class.php on line 90 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000834s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002039s ]
+
+[ 2017-02-10T23:12:34+08:00 ] ::1 /mypro/cms1/index.php
+ERR: 1064:Erreur de syntaxe près de 'update_time desc,listorder desc LIMIT 0,3' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY id desc update_time desc,listorder desc LIMIT 0,3  
+ERR: 1064:Erreur de syntaxe près de 'update_time desc,listorder desc LIMIT 0,3' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY id desc update_time desc,listorder desc LIMIT 0,3  
+ERR: 1064:Erreur de syntaxe près de 'update_time desc,listorder desc LIMIT 0,3' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY id desc update_time desc,listorder desc LIMIT 0,3  
+
+[ 2017-02-10T23:12:40+08:00 ] ::1 /mypro/cms1/index.php
+ERR: 1064:Erreur de syntaxe près de 'update_time desc,listorder desc LIMIT 0,3' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY id desc update_time desc,listorder desc LIMIT 0,3  
+ERR: 1064:Erreur de syntaxe près de 'update_time desc,listorder desc LIMIT 0,3' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY id desc update_time desc,listorder desc LIMIT 0,3  
+ERR: 1064:Erreur de syntaxe près de 'update_time desc,listorder desc LIMIT 0,3' à la ligne 1
+ [ SQL语句 ] : SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY id desc update_time desc,listorder desc LIMIT 0,3  
+

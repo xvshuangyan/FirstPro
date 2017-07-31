@@ -1,0 +1,254 @@
+[ 2017-06-12T17:30:21+08:00 ] ::1 /luzan/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp2\www\luzan\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp2\www\luzan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.078950s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.036056s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.049422s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000944s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.041951s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.012977s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000411s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 40 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000520s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2017-06-12T17:32:58+08:00 ] ::1 /luzan/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp2\www\luzan\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp2\www\luzan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.050531s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.056716s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000393s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.004448s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000436s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000337s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 40 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000390s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2017-06-12T17:33:00+08:00 ] ::1 /luzan/index.php?c=Cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp2\www\luzan\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp2\www\luzan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.004594s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.004297s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.004685s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000374s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.000243s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,6   [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2017-06-12T17:33:08+08:00 ] ::1 /luzan/index.php?c=Cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp2\www\luzan\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp2\www\luzan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005137s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.005817s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005308s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000341s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,6   [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2017-06-12T17:33:10+08:00 ] ::1 /luzan/index.php?c=Cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp2\www\luzan\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp2\www\luzan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005190s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.031379s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.004329s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000357s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` WHERE `catid` = 3 LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `cms_news` WHERE `catid` = 3 ORDER BY update_time desc,listorder desc LIMIT 0,6   [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2017-06-12T17:33:11+08:00 ] ::1 /luzan/index.php?c=Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp2\www\luzan\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp2\www\luzan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.004784s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.004073s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000334s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.004588s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000424s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000310s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 40 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000206s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000313s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000509s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2017-06-12T17:37:48+08:00 ] ::1 /luzan/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp2\www\luzan\Application\Home\Controller\CommonController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp2\www\luzan\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.004900s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.019241s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 2 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000515s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 3 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.004891s ]
+SQL: SELECT * FROM `cms_news` ORDER BY count desc LIMIT 0,5   [ RunTime:0.000416s ]
+SQL: SELECT * FROM `cms_position_content` WHERE `position_id` = 5 ORDER BY id desc,update_time desc,listorder desc LIMIT 0,3   [ RunTime:0.000290s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 40 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000142s ]
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc LIMIT 0,5   [ RunTime:0.000333s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\ContentModel::getCurrentList(), called in D:\wamp2\www\luzan\Application\Home\Controller\IndexController.class.php on line 90 and defined D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condation D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount D:\wamp2\www\luzan\Application\Common\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` ORDER BY update_time desc,listorder desc  [ RunTime:0.000863s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001118s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+

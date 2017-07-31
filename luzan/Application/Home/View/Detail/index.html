@@ -1,0 +1,15 @@
+<include file="Application/Home/View/Index/header.html"/>
+<div class="col-lg-9">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="articleList">
+                <h2>{$toShow["title"]}</h2>
+                <p><span class="update_time">{$toShow["update_time"]|date="Y-m-d H:i:s",###}</span> <span>来源：{$toShow["copyfrom"]}</span></p>
+                <p>{$toShow["content"]}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<include file="Application/Home/View/Index/rightSide.html"/>
+<include file="Application/Home/View/Index/footer.html"/>

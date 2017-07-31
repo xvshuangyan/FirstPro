@@ -1,0 +1,64 @@
+<include file="Application/Admin/View/Index/header.html"/>
+<include file="Application/Admin/View/Index/leftSide.html"/>
+<div class="col-lg-10 main">
+    <ol class="breadcrumb">
+        <li><span class="glyphicon glyphicon-tag"></span><a href="admin.php?c=User">用户管理</a></li>
+        <li class="active">用户列表</li>
+    </ol>
+    <form class="form-horizontal" role="form" method="post"  action="admin.php?c=User">
+        <div class="row messageSearch">
+            <div class="col-lg-2">
+                <a href="admin.php?c=User&a=add"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>添加管理员</button></a>
+            </div>
+            <div class="col-lg-4">
+                <div class="input-group">
+                    <input type="text" class="form-control" name="username" placeholder="搜索管理员" value="{$pagCondation['username']}">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+                </div>
+            </div>
+        </div>
+    </form>
+    <table class="table table-hover table-bordered">
+        <tr>
+            <th>id</th>
+            <th>账号</th>
+            <th>真实姓名</th>
+            <th>邮箱</th>
+            <th>登录ip</th>
+            <th>登录时间</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        <foreach name="perPageList" item="vo" >
+            <tr index="{$vo.admin_id}">
+                <td>{$vo.admin_id}</td>
+                <td>{$vo.username}</td>
+                <td>{$vo.realname}</td>
+                <td>{$vo.email}</td>
+                <td>{$vo.lastloginip}</td>
+                <td>{$vo.lastlogintime|date="Y-m-d H:i:s",###}</td>
+                <td>{$vo.status|userStatus}</td>
+                <td>
+                    <a href="admin.php?c=User&a=edit&id={$vo.admin_id}" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span></a>
+                    <button class="btn btn-danger del"><span class="glyphicon glyphicon-trash"></span></button>
+                </td>
+            </tr>
+        </foreach>
+    </table>
+    <nav class="page-group"><ul class="pagination">{$pagUi}</ul></nav>
+</div>
+</div>
+</div>
+<script src="Public/js/jquery.1.10.2.js"></script>
+<script src="Public/js/bootstrap.js"></script>
+<script src="Public/js/layer.js"></script>
+<script src="Public/js/dialog.js"></script>
+<script src="Public/js/admin/btnClick.js"></script>
+<script src="Public/js/util.js"></script>
+<script>
+    delBtn("admin.php?c=User&a=del&id=","admin.php?c=User");//删除管理员
+</script>
+</body>
+</html>

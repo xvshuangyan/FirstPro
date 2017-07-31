@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>路赞后台管理系统</title>
+    <link rel="stylesheet" href="Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Public/css/admin/index.css">
+    <link rel="stylesheet" href="Public/js/skin/layer.css">
+    <link rel="stylesheet" href="Public/js/uploadify/uploadify.css">
+</head>
+<body>
+<div class="wrap">
+    <div class="header">
+        <span class="title"><a href="admin.php?c=Index">路赞后台管理系统</a></span>
+        <span class="personal">
+            <i class="glyphicon glyphicon-user"></i> <span>欢迎</span><a href="admin.php?c=User&a=edit&id={$adminMessage['admin_id']}">{$adminMessage['realname']}</a>
+            <i class="glyphicon glyphicon-log-out"></i><a href="admin.php?c=login&a=loginOut">退出</a>
+        </span>
+    </div>

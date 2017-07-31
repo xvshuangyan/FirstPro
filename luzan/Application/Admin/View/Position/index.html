@@ -1,0 +1,61 @@
+<include file="Application/Admin/View/Index/header.html"/>
+<include file="Application/Admin/View/Index/leftSide.html"/>
+<div class="col-lg-10 main">
+    <ol class="breadcrumb">
+        <li><span class="glyphicon glyphicon-tag"></span><a href="admin.php?c=Position">推荐位管理</a></li>
+        <li class="active">推荐位列表</li>
+    </ol>
+    <form class="form-horizontal" role="form" method="post"  action="admin.php?c=Position">
+        <div class="row messageSearch">
+            <div class="col-lg-2">
+                <a href="admin.php?c=Position&a=add"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>添加推荐位</button></a>
+            </div>
+            <div class="col-lg-4">
+                <div class="input-group">
+                    <input type="text" class="form-control" name="title" placeholder="搜索推荐位位" value="{$pagCondation['title']}">
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </form>
+    <table class="table table-hover table-bordered">
+        <tr>
+            <th>id</th>
+            <th>推荐位名称</th>
+            <th>描述</th>
+            <th>创建时间</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        <foreach name="perPageList" item="vo" >
+            <tr index="{$vo.id}">
+                <td>{$vo.id}</td>
+                <td>{$vo.name}</td>
+                <td>{$vo.description}</td>
+                <td>{$vo.create_time|date="Y-m-d H:i:s",###}</td>
+                <td>{$vo.status|getStatus}</td>
+                <td>
+                    <a href="admin.php?c=Position&a=edit&id={$vo.id}" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span></a>
+                    <button class="btn btn-danger del"><span class="glyphicon glyphicon-trash"></span></button>
+                </td>
+            </tr>
+        </foreach>
+    </table>
+
+    <nav class="page-group"><ul class="pagination">{$pagUi}</ul></nav>
+</div>
+</div>
+</div>
+<script src="Public/js/jquery.1.10.2.js"></script>
+<script src="Public/js/bootstrap.js"></script>
+<script src="Public/js/layer.js"></script>
+<script src="Public/js/dialog.js"></script>
+<script src="Public/js/admin/btnClick.js"></script>
+<script src="Public/js/util.js"></script>
+<script>
+    delBtn("admin.php?c=Position&a=del&id=","admin.php?c=Position");//删除推荐位
+</script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+[ 2017-01-17T13:17:52+08:00 ] ::1 /mypro/cms1/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2017-01-17T13:17:53+08:00 ] ::1 /mypro/cms1/admin.php?c=Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.121387s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.119081s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getlist(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\IndexController.class.php on line 16 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 17 行.
+NOTIC: [8] Undefined variable: condation E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 18 行.
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_news` LIMIT 1   [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.071406s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositionList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\IndexController.class.php on line 19 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositionList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\IndexController.class.php on line 19 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositionList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\IndexController.class.php on line 19 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condition E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_position`  [ RunTime:0.001205s ]
+NOTIC: [2] Missing argument 1 for Common\Model\ContentModel::getMaxReadCount(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\IndexController.class.php on line 22 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 33 行.
+NOTIC: [2] Missing argument 2 for Common\Model\ContentModel::getMaxReadCount(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\IndexController.class.php on line 22 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 33 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 34 行.
+NOTIC: [8] Undefined variable: count E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\ContentModel.class.php 第 34 行.
+SQL: SELECT * FROM `cms_news` ORDER BY count desc  [ RunTime:0.001593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000586s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097725s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002427s ]
+
+[ 2017-01-17T13:17:57+08:00 ] ::1 /mypro/cms1/admin.php?c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+NOTIC: [8] Undefined index: type E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\MenuController.class.php 第 9 行.
+NOTIC: [8] Undefined index: type E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\MenuController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005792s ]
+SQL: SELECT * FROM `cms_menu` ORDER BY listorder desc  [ RunTime:0.000560s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004529s ]
+
+[ 2017-01-17T13:19:16+08:00 ] ::1 /mypro/cms1/admin.php?c=basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.005178s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000424s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002908s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003272s ]
+
+[ 2017-01-17T13:19:18+08:00 ] ::1 /mypro/cms1/admin.php?c=positionContent
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms1\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.009946s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.004796s ]
+NOTIC: [2] Missing argument 1 for Common\Model\PositionModel::getPositionList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\PositionContentController.class.php on line 17 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 2 for Common\Model\PositionModel::getPositionList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\PositionContentController.class.php on line 17 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Common\Model\PositionModel::getPositionList(), called in E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\PositionContentController.class.php on line 17 and defined E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: condition E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms1\Application\Common\Model\PositionModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_position`  [ RunTime:0.000436s ]
+NOTIC: [8] Undefined index: position_id E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\PositionContentController.class.php 第 23 行.
+NOTIC: [8] Undefined index: title E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\PositionContentController.class.php 第 27 行.
+NOTIC: [8] Undefined index: position_id E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\PositionContentController.class.php 第 31 行.
+NOTIC: [8] Undefined index: title E:\wampserv\wamp\www\mypro\cms1\Application\Admin\Controller\PositionContentController.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.005049s ]
+SQL: SELECT COUNT(*) AS tp_Count FROM `cms_position_content` LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `cms_position_content` ORDER BY update_time desc,listorder desc LIMIT 0,6   [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+NOTIC: [8] Undefined index: position_id E:\wampserv\wamp\www\mypro\cms1\Application\Runtime\Cache\Admin\b3c2094605e2b67e8edd0c0d4b77ce4a.php 第 45 行.
+NOTIC: [8] Undefined index: position_id E:\wampserv\wamp\www\mypro\cms1\Application\Runtime\Cache\Admin\b3c2094605e2b67e8edd0c0d4b77ce4a.php 第 45 行.
+NOTIC: [8] Undefined index: position_id E:\wampserv\wamp\www\mypro\cms1\Application\Runtime\Cache\Admin\b3c2094605e2b67e8edd0c0d4b77ce4a.php 第 45 行.
+NOTIC: [8] Undefined index: position_id E:\wampserv\wamp\www\mypro\cms1\Application\Runtime\Cache\Admin\b3c2094605e2b67e8edd0c0d4b77ce4a.php 第 45 行.
+NOTIC: [8] Undefined index: title E:\wampserv\wamp\www\mypro\cms1\Application\Runtime\Cache\Admin\b3c2094605e2b67e8edd0c0d4b77ce4a.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002118s ]
+

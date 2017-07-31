@@ -1,0 +1,61 @@
+<include file="Application/Admin/View/Index/header.html"/>
+<include file="Application/Admin/View/Index/leftSide.html"/>
+<div class="col-lg-10 main">
+    <ol class="breadcrumb">
+        <li><span class="glyphicon glyphicon-tag"></span><a href="admin.php?c=Menu">菜单管理</a></li>
+        <li class="active">菜单列表</li>
+    </ol>
+
+<form class="form-horizontal" role="form" method="post"  action="admin.php?c=Menu">
+    <div class="col-lg-2">
+        <a href="admin.php?c=Menu&a=add"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>添加菜单</button></a>
+    </div>
+    <div class="input-group col-lg-4">
+        <span class="input-group-addon">类型</span>
+        <select name="type" class="form-control">
+            <option>全部菜单</option>
+            <option value="0" {$select_0[0]|default=""}>前台菜单</option>
+            <option value="1" {$select_1[0]|default=""}>后台菜单</option>
+        </select>
+        <span class="input-group-btn">
+            <button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+        </span>
+    </div>
+</form>
+    <table class="table table-hover table-bordered">
+        <tr>
+            <th>id</th>
+            <th>菜单名</th>
+            <th>模块名</th>
+            <th>类型</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        <foreach name="list" item="vo" >
+            <tr index="{$vo.menu_id}">
+                <td>{$vo.menu_id}</td>
+                <td>{$vo.name}</td>
+                <td>{$vo.c}</td>
+                <td>{$vo.type|getMenuType}</td>
+                <td>{$vo.status|getStatus}</td>
+                <td>
+                    <a href="admin.php?c=Menu&a=edit&id={$vo.menu_id}" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span></a>
+                    <button class="btn btn-danger del"><span class="glyphicon glyphicon-trash"></span></button>
+                </td>
+            </tr>
+        </foreach>
+    </table>
+</div>
+</div>
+</div>
+<script src="Public/js/jquery.1.10.2.js"></script>
+<script src="Public/js/bootstrap.js"></script>
+<script src="Public/js/layer.js"></script>
+<script src="Public/js/dialog.js"></script>
+<script src="Public/js/admin/btnClick.js"></script>
+<script src="Public/js/util.js"></script>
+<script>
+    delBtn("admin.php?c=Menu&a=del&id=","admin.php?c=menu");//删除菜单栏目
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<div class="col-lg-3 ">
+    <div class="topArticles">
+        <h3>
+            文章排行
+            <p>TOP ARTICLES</p>
+        </h3>
+        <div class="list-group">
+            <foreach name="maxReadCount" item="vo">
+                <a href="?c=Detail&id={$vo['news_id']}" class="list-group-item" title="{$vo['title']}">
+                    <span class="top{$key+1}">
+                        <h5>{$vo['title']}</h5>
+                        <p <if condition="$key neq '0'">class="hidden"</if>>{$vo['small_title']}</p>
+                    </span>
+                </a>
+            </foreach>
+        </div>
+    </div>
+    <div class="rightPosition">
+        <foreach name="rightImg" item="vo">
+            <div class="rightImg">
+                <div>
+                    <a href="?c=Detail&id={$vo['news_id']}" class="thumbnail">
+                        <img src="{$vo['thumb']}" alt="">
+                        <div class="right-title">{$vo["title"]}</div>
+                    </a>
+                </div>
+            </div>
+        </foreach>
+    </div>
+</div>

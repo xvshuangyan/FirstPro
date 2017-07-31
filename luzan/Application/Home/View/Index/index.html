@@ -1,0 +1,71 @@
+<include file="Application/Home/View/Index/header.html"/>
+                <div class="col-lg-9">
+                    <div class="row imgGroup">
+                        <div class="col-lg-9 bigImg">
+                            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner" role="listbox">
+                                    <foreach name="bigImg" item="vo">
+                                        <div class="item <if condition='$key eq 0'>active</if>">
+                                            <a href="?c=Detail&id={$vo['news_id']}"><img src="{$vo['thumb']}" alt="{$vo['title']}"></a>
+                                            <a href="?c=Detail&id={$vo['news_id']}"><div class="carousel-caption">
+                                                {$vo['title']}
+                                            </div></a>
+                                        </div>
+                                    </foreach>
+                                </div>
+
+                                <!-- Controls -->
+                                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-3">
+                            <foreach name="smallImg" item="vo">
+                                <div class="smallImg">
+                                    <div>
+                                        <a href="?c=Detail&id={$vo['news_id']}" class="thumbnail">
+                                            <img src="{$vo.thumb}" alt="{$vo['title']}">
+                                            <div class="small-title">{$vo["title"]}</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </foreach>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="articleList">
+                                <foreach name="perPageList" item="vo">
+                                    <div class="row">
+                                        <div class="col-lg-3 thumb">
+                                            <a  href="?c=Detail&id={$vo['news_id']}">
+                                                <img src="{$vo['thumb']}" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-9 thumbContent">
+                                            <h4 class="media-heading"><a href="?c=Detail&id={$vo['news_id']}">{$vo['title']}</a></h4>
+                                            <p class="description">{$vo['news_id']|getDescription=$newsList,###}</p>
+                                            <p class="btm-message">
+                                                <span class="small_title">{$vo['news_id']|getSmallTitle=$newsList,###}</span>
+                                                <span class="update_time">{$vo['update_time']|date="Y-m-d H:i:s",###}</span>
+                                                <span class="readCount">阅读(<span index="{$vo['news_id']}">{$vo['news_id']|getReadCount=$newsList,###}</span>)</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </foreach>
+                            </div>
+                            <nav class="page-group"><ul class="pagination">{$pagUi}</ul></nav>
+                        </div>
+                    </div>
+                </div>
+<include file="Application/Home/View/Index/rightSide.html"/>
+<include file="Application/Home/View/Index/footer.html"/>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cms内容管理系统</title>
+    <link rel="stylesheet" href="Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Public/css/home/index.css">
+    <link rel="stylesheet" href="Public/js/skin/layer.css">
+</head>
+<body>
+
+</body>
+<script src="Public/js/jquery.1.10.2.js"></script>
+<script src="Public/js/bootstrap.js"></script>
+<script src="Public/js/layer.js"></script>
+<script src="Public/js/dialog.js"></script>
+<script>
+    layer.ready(function(){
+        layer.msg('页面地址出错，2秒后退出！',{end: function () {
+          location.href="index.php?c=Index";
+        }});
+    });
+</script>
+</html>

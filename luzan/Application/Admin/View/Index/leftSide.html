@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-lg-2">
+        <div class="leftSide">
+            <ul class="list-group">
+                <li><a href="admin.php?c=index" class="firstPage"><span class="glyphicon glyphicon-home"></span>首页</a></li>
+                <foreach name="menu" item="vo" >
+                    <li><a href="admin.php?c={$vo.c}" class=""><span class="{$vo.c|getIcon=$menu_icon,###}"></span>{$vo.name}</a></li>
+                </foreach>
+            </ul>
+        </div>
+    </div>

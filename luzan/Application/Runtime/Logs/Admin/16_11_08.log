@@ -1,0 +1,577 @@
+[ 2016-11-08T00:03:29+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.011239s ]
+ERR: 非法数据对象！:[content=><p>
+	gsdggsgsgsgsg</p><p>
+	sgsg</p><p>
+	gsdgsg&nbsp;</p><p style="text-align: center;">
+	&nbsp; &nbsp; &nbsp; &nbsp;ggg</p><p>嘿嘿</p>]
+
+[ 2016-11-08T00:03:40+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit&id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.012333s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.012219s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms\Application\Admin\Controller\ContentController.class.php on line 113 and defined E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms\Application\Admin\Controller\ContentController.class.php on line 113 and defined E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` = 17  [ RunTime:0.000500s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.012284s ]
+SQL: SELECT * FROM `cms_news_content` WHERE `news_id` = 17 LIMIT 1   [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001567s ]
+
+[ 2016-11-08T00:03:50+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.009849s ]
+ERR: 非法数据对象！:[content=><p>
+	gsdggsgsgsgsg</p><p>
+	sgsg</p><p>
+	gsdgsg&nbsp;</p><p style="text-align: center;">
+	&nbsp; &nbsp; &nbsp; &nbsp;ggg</p><p>嘿嘿</p>]
+
+[ 2016-11-08T00:05:49+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit&id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.011467s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.009791s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms\Application\Admin\Controller\ContentController.class.php on line 113 and defined E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms\Application\Admin\Controller\ContentController.class.php on line 113 and defined E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` = 17  [ RunTime:0.001040s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.011269s ]
+SQL: SELECT * FROM `cms_news_content` WHERE `news_id` = 17 LIMIT 1   [ RunTime:0.000599s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001562s ]
+
+[ 2016-11-08T00:07:05+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit&id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.010858s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.011877s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms\Application\Admin\Controller\ContentController.class.php on line 113 and defined E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms\Application\Admin\Controller\ContentController.class.php on line 113 and defined E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` = 17  [ RunTime:0.000329s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.012252s ]
+SQL: SELECT * FROM `cms_news_content` WHERE `news_id` = 17 LIMIT 1   [ RunTime:0.000314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003147s ]
+
+[ 2016-11-08T00:07:14+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit&id=17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.012024s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.010654s ]
+NOTIC: [2] Missing argument 2 for Admin\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms\Application\Admin\Controller\ContentController.class.php on line 113 and defined E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 22 行.
+NOTIC: [2] Missing argument 3 for Admin\Model\ContentModel::getCurrentList(), called in E:\wampserv\wamp\www\mypro\cms\Application\Admin\Controller\ContentController.class.php on line 113 and defined E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 22 行.
+NOTIC: [8] Undefined variable: offset E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 23 行.
+NOTIC: [8] Undefined variable: perPageCount E:\wampserv\wamp\www\mypro\cms\Application\Admin\Model\ContentModel.class.php 第 23 行.
+SQL: SELECT * FROM `cms_news` WHERE `news_id` = 17  [ RunTime:0.000581s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=0 )  [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `cms_news_content` [ RunTime:0.009795s ]
+SQL: SELECT * FROM `cms_news_content` WHERE `news_id` = 17 LIMIT 1   [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+NOTIC: [8] Undefined variable: menu_icon E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\c9346596b4ea11ecbab575e85e082471.php 第 26 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\wampserv\wamp\www\mypro\cms\Application\Common\Common\function.php 第 54 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001676s ]
+
+[ 2016-11-08T00:07:24+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.009891s ]
+ERR: 非法数据对象！:[content=><p>
+	gsdggsgsgsgsg</p><p>
+	sgsg</p><p>
+	gsdgsg&nbsp;</p><p style="text-align: center;">
+	&nbsp; &nbsp; &nbsp; &nbsp;ggg</p><p>1111</p>]
+
+[ 2016-11-08T00:15:30+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '17' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=17,`title`='test111',`small_title`='test',`thumb`='',`title_font_color`='#00ff00',`catid`=3,`copyfrom`='0',`description`='sss',`keywords`='sss',`status`=1 WHERE ( 17 )
+
+[ 2016-11-08T00:19:28+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '17' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=17,`title`='test',`small_title`='test',`thumb`='',`title_font_color`='#00ff00',`catid`=3,`copyfrom`='0',`description`='sss',`keywords`='sss',`status`=1 WHERE ( 17 )
+ERR: 1064:Erreur de syntaxe près de '=> )' à la ligne 1
+ [ SQL语句 ] : UPDATE `cms_news_content` SET `news_id`=17,`content`='<p>111gsdggsgsgsgsg</p><p>\r\n	sgsg</p><p>\r\n	gsdgsg&nbsp;</p><p style=\"text-align: center;\">\r\n	&nbsp; &nbsp; &nbsp; &nbsp;ggg</p>' WHERE ( news_id=> )
+
+[ 2016-11-08T00:22:11+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '17' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=17,`title`='test111',`small_title`='test',`thumb`='',`title_font_color`='#00ff00',`catid`=3,`copyfrom`='0',`description`='sss',`keywords`='sss',`status`=1 WHERE ( 17 )
+
+[ 2016-11-08T00:24:10+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '17' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=17,`title`='test111',`small_title`='test',`thumb`='',`title_font_color`='#00ff00',`catid`=3,`copyfrom`='0',`description`='sss',`keywords`='sss',`status`=1 WHERE ( 17 )
+
+[ 2016-11-08T00:31:15+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '17' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=17,`title`='test11',`small_title`='test',`thumb`='',`catid`=3,`copyfrom`='0',`description`='sss',`keywords`='sss',`status`=1 WHERE ( 17 )
+
+[ 2016-11-08T00:37:22+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '17' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=17,`title`='test',`small_title`='test',`thumb`='',`catid`=3,`copyfrom`='0',`description`='sss',`keywords`='sss',`status`=1 WHERE ( 17 )
+
+[ 2016-11-08T00:39:41+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '17' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=17,`title`='test11',`small_title`='test',`thumb`='',`catid`=3,`copyfrom`='0',`description`='sss',`keywords`='sss',`status`=1 WHERE ( 17 )
+
+[ 2016-11-08T00:42:09+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '18' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=18,`title`='你好',`small_title`='你好',`thumb`='',`catid`=3,`copyfrom`='3',`description`='你好sssss  ss',`keywords`='你好',`status`=1 WHERE ( 18 )
+
+[ 2016-11-08T00:42:59+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '18' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=18,`title`='你好',`small_title`='你好',`thumb`='',`catid`=3,`copyfrom`='3',`description`='你好sssss  ss',`keywords`='你好',`status`=1 WHERE ( 18 )
+
+[ 2016-11-08T00:44:10+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '18' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=18,`title`='你好33',`small_title`='你好',`thumb`='',`catid`=3,`copyfrom`='3',`description`='你好sssss  ss',`keywords`='你好',`status`=1 WHERE ( 18 )
+
+[ 2016-11-08T00:45:09+08:00 ] ::1 /mypro/cms/admin.php?c=Menu&a=edit
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_menu` SET `menu_id`=1,`name`='菜单管理1',`c`='menu',`type`=1,`status`=1 WHERE ( 1 )
+
+[ 2016-11-08T00:45:58+08:00 ] ::1 /mypro/cms/admin.php?c=Menu&a=edit
+ERR: 1062:Duplicata du champ '1' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_menu` SET `menu_id`=1,`name`='菜单管理',`c`='menu',`type`=1,`status`=1 WHERE ( 1 )
+
+[ 2016-11-08T00:46:31+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '18' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=18,`title`='你好',`small_title`='你好',`thumb`='',`catid`=3,`copyfrom`='3',`description`='你好sssss  ss',`keywords`='你好',`status`=1 WHERE ( 18 )
+
+[ 2016-11-08T00:47:07+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '18' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=18,`title`='你好',`small_title`='你好11',`thumb`='',`catid`=3,`copyfrom`='3',`description`='你好sssss  ss',`keywords`='你好',`status`=1 WHERE ( 18 )
+
+[ 2016-11-08T00:51:54+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '18' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=18,`title`='你好',`small_title`='你好',`thumb`='',`catid`=3,`copyfrom`='3',`description`='你好sssss  ss',`keywords`='你好',`status`=1 WHERE ( 18 )
+
+[ 2016-11-08T00:52:42+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1062:Duplicata du champ '18' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=18,`title`='你好',`small_title`='你好',`thumb`='',`catid`=3,`copyfrom`='3',`description`='你好sssss  ss',`keywords`='你好',`status`=1 WHERE ( 18 )
+
+[ 2016-11-08T00:54:46+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1064:Erreur de syntaxe près de '["news_id"] )' à la ligne 1
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=18,`title`='你好',`small_title`='你好',`thumb`='',`catid`=3,`copyfrom`='3',`description`='你好sssss  ss',`keywords`='你好',`status`=1 WHERE ( news_id=$_data["news_id"] )
+
+[ 2016-11-08T00:56:00+08:00 ] ::1 /mypro/cms/admin.php?c=Content&a=edit
+ERR: 1064:Erreur de syntaxe près de '["news_id"] )' à la ligne 1
+ [ SQL语句 ] : UPDATE `cms_news` SET `news_id`=17,`title`='test',`small_title`='test',`thumb`='',`catid`=3,`copyfrom`='0',`description`='sss',`keywords`='sss',`status`=1 WHERE ( news_id=$_data["news_id"] )
+
+[ 2016-11-08T00:59:35+08:00 ] ::1 /mypro/cms/admin.php?c=Menu&a=edit
+ERR: 1062:Duplicata du champ '9' pour la clef 'PRIMARY'
+ [ SQL语句 ] : UPDATE `cms_menu` SET `menu_id`=9,`name`='推荐位管理1',`c`='position',`type`=1,`status`=1 WHERE ( 9 )
+
+[ 2016-11-08T09:26:36+08:00 ] ::1 /mypro/cms/admin.php?c=user
+ERR: Think\Model:getNavs方法不存在！
+
+[ 2016-11-08T09:26:48+08:00 ] ::1 /mypro/cms/admin.php?c=user
+ERR: Think\Model:getNavs方法不存在！
+
+[ 2016-11-08T09:27:12+08:00 ] ::1 /mypro/cms/admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.009541s ]
+ERR: Think\Model:getNavs方法不存在！
+
+[ 2016-11-08T09:29:17+08:00 ] ::1 /mypro/cms/admin.php?c=user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.010692s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.011928s ]
+SQL: SELECT * FROM `cms_admin`  [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined variable: pagCondation E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 41 行.
+NOTIC: [8] Undefined variable: pagUi E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\65e605872ed5d34210f5b33beb13f5a3.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2016-11-08T09:29:35+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.011633s ]
+ERR: Think\Model:getNavs方法不存在！
+
+[ 2016-11-08T09:29:52+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.011549s ]
+ERR: Think\Model:getNavs方法不存在！
+
+[ 2016-11-08T09:30:41+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.011137s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+NOTIC: [8] Undefined variable: singleMenu E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\4e1f0ee1a12a8dbb63343fe9e6a3f60d.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034097s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003181s ]
+
+[ 2016-11-08T09:34:35+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.013160s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [8] Undefined variable: singleMenu E:\wampserv\wamp\www\mypro\cms\Application\Runtime\Cache\Admin\4e1f0ee1a12a8dbb63343fe9e6a3f60d.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2016-11-08T09:49:25+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.013359s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-11-08T09:50:10+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2016-11-08T09:50:25+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.011467s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-11-08T09:50:46+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2016-11-08T10:00:48+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.012021s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2016-11-08T10:02:02+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.010848s ]
+SQL: SELECT * FROM `cms_menu` WHERE ( type=1 )  [ RunTime:0.000330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-11-08T10:02:20+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\wampserv\wamp\www\mypro\cms\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.011906s ]
+ERR: 非法数据对象！:[repassword=>123456]
+
+[ 2016-11-08T10:10:29+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=edit&id=1
+ERR: 非法操作:edit
+
+[ 2016-11-08T10:20:29+08:00 ] ::1 /mypro/cms/admin.php?c=position
+ERR: Think\Model:getNavs方法不存在！
+
+[ 2016-11-08T10:20:36+08:00 ] ::1 /mypro/cms/admin.php?c=position
+ERR: Think\Model:getNavs方法不存在！
+
+[ 2016-11-08T10:34:51+08:00 ] ::1 /mypro/cms/admin.php?c=User&a=edit
+ERR: 1054:Champ 'adin_id' inconnu dans where clause
+ [ SQL语句 ] : UPDATE `cms_admin` SET `admin_id`=1,`username`='admin1',`password`='123456',`realname`='毕丛明',`email`='732005030@qq.com',`status`=1 WHERE ( adin_id=1 )
+
+[ 2016-11-08T10:39:49+08:00 ] ::1 /mypro/cms/admin.php?c=position
+ERR: Think\Model:getNavs方法不存在！
+
+[ 2016-11-08T10:49:36+08:00 ] ::1 /mypro/cms/admin.php?c=positionContent
+ERR: Think\Model:getNavs方法不存在！
+
+[ 2016-11-08T10:50:16+08:00 ] ::1 /mypro/cms/admin.php?c=basic
+ERR: Think\Model:getNavs方法不存在！
+
+[ 2016-11-08T10:50:44+08:00 ] ::1 /mypro/cms/admin.php?c=Basic&a=cache
+ERR: 非法操作:cache
+
+[ 2016-11-08T14:22:28+08:00 ] ::1 /mypro/cms/admin.php?c=Basic&a=edit
+ERR: 非法操作:edit
+
+[ 2016-11-08T14:25:01+08:00 ] ::1 /mypro/cms/admin.php?c=Basic&a=edit
+ERR: 非法操作:edit
+
+[ 2016-11-08T14:26:09+08:00 ] ::1 /mypro/cms/admin.php?c=Basic&a=edit
+ERR: 非法操作:edit
+
+[ 2016-11-08T15:06:12+08:00 ] ::1 /mypro/cms/admin.php?c=Position&a=add
+ERR: 1146:La table 'cms.cms_content_add' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `cms_content_add`
+ERR: Think\Model:insert方法不存在！
+

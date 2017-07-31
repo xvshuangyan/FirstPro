@@ -1,0 +1,12 @@
+[ 2016-11-04T14:34:48+08:00 ] ::1 /mypro/cms/admin.php?c=user
+ERR: 无法加载控制器:User
+
+[ 2016-11-04T14:34:52+08:00 ] ::1 /mypro/cms/admin.php?c=basic
+ERR: 无法加载控制器:Basic
+
+[ 2016-11-04T14:35:10+08:00 ] ::1 /mypro/cms/admin.php?c=user
+ERR: 无法加载控制器:User
+
+[ 2016-11-04T14:36:00+08:00 ] ::1 /mypro/cms/admin.php?c=position
+ERR: 无法加载控制器:Position
+

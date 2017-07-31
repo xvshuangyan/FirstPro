@@ -1,0 +1,35 @@
+<include file="Application/Admin/View/Index/header.html"/>
+<include file="Application/Admin/View/Index/leftSide.html"/>
+<div class="col-lg-10 main">
+    <ol class="breadcrumb">
+        <li><span class="glyphicon glyphicon-tag"></span><a href="admin.php?c=Basic">基本管理</a></li>
+        <li class="active">管理配置</li>
+    </ol>
+<div class="row configure">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-4">
+        <a href="admin.php?c=Basic"><button type="button" class="btn btn-primary">基本配置</button></a>
+        <a href="admin.php?c=Basic&a=cache"><button type="button" class="btn btn-info">缓存配置</button></a>
+    </div>
+</div>
+<form class="form-horizontal" role="form">
+    <div class="form-group">
+        <div class="col-lg-1"></div>
+        <div class="col-sm-8">
+            <button type="button" class="btn btn-primary" onclick="btnClick.updateIndex();">更新首页缓存</button>
+            <button type="button" class="btn btn-primary" onclick="btnClick.updateColumn();">更新栏目缓存</button>
+            <button type="button" class="btn btn-primary" onclick="btnClick.updateDetail();">更新详情页缓存</button>
+        </div>
+    </div>
+</form>
+</div>
+</div>
+</div>
+<script src="Public/js/jquery.1.10.2.js"></script>
+<script src="Public/js/bootstrap.js"></script>
+<script src="Public/js/layer.js"></script>
+<script src="Public/js/dialog.js"></script>
+<script src="Public/js/admin/btnClick.js"></script>
+<script src="Public/js/util.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<include file="Application/Admin/View/Index/header.html" />
+<include file="Application/Admin/View/Index/leftSide.html" />
+<div class="col-lg-10 main">
+        <div class="page-header">
+            <h2>欢迎使用<small>路赞后台管理系统</small></h2>
+        </div>
+        <ol class="breadcrumb">
+            <li><span class="glyphicon glyphicon-tag"></span><a href="admin.php?c=Index">平台整理指标</a></li>
+        </ol>
+        <div class="panel loginCount">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-cloud"></span>
+                <b class="dataTitle">
+                    <h5>今日登录用户数</h5>
+                    <p>250</p>
+                </b>
+            </div>
+            <div class="panel-body">
+                <span><a href="#">查看</a></span><span class="glyphicon glyphicon-circle-arrow-right rightClick"></span>
+            </div>
+        </div>
+        <div class="panel articleCount">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-th-list"></span>
+                <b class="dataTitle">
+                    <h5>文章数量</h5>
+                    <p>{$articleCount}</p>
+                </b>
+            </div>
+            <div class="panel-body">
+                <span><a href="admin.php?c=Content">查看</a></span><span class="glyphicon glyphicon-circle-arrow-right rightClick"></span>
+            </div>
+        </div>
+        <div class="panel maxRead">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-stats"></span>
+                <b class="dataTitle">
+                    <h5>文章最大阅读数</h5>
+                    <p>{$maxReadCount}</p>
+                </b>
+            </div>
+            <div class="panel-body">
+                <span><a href="admin.php?c=Content">查看</a></span><span class="glyphicon glyphicon-circle-arrow-right rightClick"></span>
+            </div>
+        </div>
+        <div class="panel recommendCount">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-filter"></span>
+                <b class="dataTitle">
+                    <h5>推荐位数</h5>
+                    <p>{$positionCountent}</p>
+                </b>
+            </div>
+            <div class="panel-body">
+                <span><a href="admin.php?c=Position">查看</a></span><span class="glyphicon glyphicon-circle-arrow-right rightClick"></span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="Public/js/jquery.1.10.2.js"></script>
+<script src="Public/js/bootstrap.js"></script>
+<script src="Public/js/layer.js"></script>
+<script src="Public/js/dialog.js"></script>
+<script src="Public/js/util.js"></script>
+</body>
+</html>

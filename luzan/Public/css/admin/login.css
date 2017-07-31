@@ -1,0 +1,27 @@
+body{
+    background: url("../../img/admin/bg.png");
+}
+form{
+    width:300px;
+    margin-left: 530px;
+    margin-top: 250px;
+    padding-left: 60px;
+}
+.input-group{
+    width:100%;
+}
+.input-group .login,.input-group .reset{
+    width:48%;
+    display: inline-block;
+    margin:1%;
+}
+.title{
+    text-align: center;
+    padding: 10px 0px;
+}
+.title h2{
+    font-size: 20px;
+}
+.input-group{
+    margin:5px 0px;
+}
