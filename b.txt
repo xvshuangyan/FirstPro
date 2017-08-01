@@ -1,2 +1,4 @@
 bbbbbbbbbb
-OPENSource add "dddddddddddddddddd" to b.txt
+<<<<<<< HEAD
+OPENSource  add OPENSource_1  
+add "dddddddccccccccc" to b.txt
